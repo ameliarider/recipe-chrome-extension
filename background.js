@@ -25,7 +25,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           const close = document.createElement("button");
           close.textContent = "✖";
           close.style.float = "right";
-          close.style.marginLeft = "10px";
+          close.style.marginLeft = "5px";
           close.onclick = () => container.remove();
           container.appendChild(close);
 
